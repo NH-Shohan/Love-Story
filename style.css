@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+.first-page {
+  background-image: url(Images/1st-page.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.first-page-parent {
+  display: flex;
+}
+.First-Intro {
+  margin: 30px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  color: #ffff00;
+  text-shadow: 2px 2px 4px #000000;
+}
+small {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  color: #ff0000;
+  text-shadow: 2px 2px 4px #000000;
+}
+h3 {
+  color: #000000;
+  text-shadow: 2px 2px 4px #000000;
+}
+span {
+  color: #ffff00;
+  text-shadow: 2px 2px 4px #000000;
+}
+p {
+  font-size: 30px;
+  color: #000000;
+  text-shadow: 2px 2px 4px #ffff00;
+}
+
+.both-image img {
+  margin-top: 30px;
+  margin-left: 55px;
+  height: 350px;
+  width: auto;
+  align-items: baseline;
+}
+.start-message {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  color: #ffff00;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.second-page {
+  background-image: url(Images/2nd-page.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.second-page-parent {
+  display: flex;
+}
+.hero img {
+  height: auto;
+  width: 750px;
+}
+.arnab-name {
+  margin-top: 90px;
+  margin-left: 140px;
+  font-size: 40px;
+  color: #ff0000;
+  text-shadow: 2px 2px 4px #ffffff;
+}
+.Second-Intro {
+  padding: 30px;
+  width: 50%;
+  margin: 40px;
+  background-color: black;
+  opacity: 70%;
+  box-shadow: 10px 10px 30px red;
+}
+.arnab-info-heading {
+  text-align: center;
+  font-size: 30px;
+  color: #ff0000;
+  text-shadow: 2px 2px 4px #ff0000;
+}
+.arnab-info {
+  text-align: justify;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #ff0000;
+}
+button {
+  border-width: 4px;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 7px;
+  padding: 15px 40px;
+  background-image: linear-gradient(black, red);
+}
+button:hover {
+  background-image: linear-gradient(red, white);
+}
+.button {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.third-page {
+  background-image: url(Images/3rd-page.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.third-page-parent {
+  display: flex;
+}
+.third-intro {
+  padding: 30px;
+  width: 50%;
+  margin: 40px;
+  opacity: 90%;
+  background-color: #ff7d7d;
+  box-shadow: 10px 10px 30px red;
+}
+.maliha-intro-heading {
+  text-align: center;
+  font-size: 30px;
+  color: #000000;
+  text-shadow: 2px 2px 4px #373737;
+}
+.maliha-info {
+  font-size: 20px;
+  text-align: justify;
+  text-shadow: 2px 2px 4px #ff0000;
+}
+.heroine img {
+  height: auto;
+  width: 750px;
+  margin-top: 55px;
+}
+.maliha-name {
+  margin-left: 140px;
+  font-size: 40px;
+  color: #ff0000;
+  text-shadow: 2px 2px 4px #ffffff;
+}
+
+.forth-page {
+  background-image: url(Images/4th-page.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.quality-intro {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+hr {
+  background-color: #ff0000;
+  width: 69%;
+  border: 3px solid black;
+}
+.quality-first {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.quality-second {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.quality {
+  border-left: 7px solid;
+  border-image: linear-gradient(red, black);
+  box-shadow: 10px 10px 30px black;
+  border-image-slice: 1;
+  background-color: #ff9494;
+  opacity: 70%;
+  width: 25%;
+  margin: 20px;
+  border-radius: 9px;
+}
+.last-page {
+  background-image: url(Images/5th-page.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.last-intro {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #ff7d7d;
+}
+.page-footer {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  font-size: 30px;
+}
+.contact {
+  display: flex;
+}
+img {
+  height: auto;
+  width: 450px;
+  margin-top: 15px;
+}
+#button {
+  justify-content: center;
+  text-align: center;
+}
+.arnab h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.maliha h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.btn {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  border: black solid 4px;
+  border-radius: 7px;
+  padding: 15px 40px;
+  width: 30px;
+  background-image: linear-gradient(black, red);
+}
+.btn:hover {
+  background-image: linear-gradient(red, white);
+  color: #000;
+}
