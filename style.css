@@ -248,3 +248,9 @@ img {
   background-image: linear-gradient(red, white);
   color: #000;
 }
+p{
+  color: #fff;
+  font-size:30px;
+  display: flex;
+  justify-content: center;
+}
